@@ -4,16 +4,16 @@ class Loki < Formula
   desc "All-in-one, batteries included LLM CLI tool"
   homepage "https://github.com/Dark-Alex-17/loki"
   if OS.mac? and Hardware::CPU.arm?
-    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.0/loki-aarch64-apple-darwin.tar.gz"
-    sha256 "e7049efe94370acd8335f82d0699850337a9cec2d43622e2b7b52eaacc0af1a5"
+    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.1/loki-aarch64-apple-darwin.tar.gz"
+    sha256 "c2b5296748924c9b9ae801875a6a003541d2d905d9c9b015d5b77c34333acf2b"
   elsif OS.mac? and Hardware::CPU.intel?
-    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.0/loki-x86_64-apple-darwin.tar.gz"
-    sha256 "52aaa96e68fc7d0931084f934ef731790c2d3ae7cf8cd1f30eab13a25e278b2d"
+    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.1/loki-x86_64-apple-darwin.tar.gz"
+    sha256 "99a65c008bb840791a6a9600b89e2384a45aef0956cfd174851ba419a97a6cfb"
   else
-    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.0/loki-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "1eca291a285b3f9f66eeed8ce9d8d6dc6c9639de6e9028e0c885af3eebcd609b"
+    url "https://github.com/Dark-Alex-17/loki/releases/download/v0.1.1/loki-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "80a736230fc15cd6985ff6ee3d08f04b08fc319ea1d676ddb452fbaae5a179ef"
   end
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   def install
